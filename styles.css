@@ -1,0 +1,182 @@
+body {
+  font-family: 'League Spartan', sans-serif;
+    min-height: 100vh;
+}
+
+main {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  padding-top: 70px;
+  text-align: left;
+  width: 20%;
+  color:hsl(300, 43%, 22%);
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);
+  width: 70%;
+  margin-left: 80px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+p {
+  width: 40%;
+  text-align: left;
+  line-height: 1.5rem;
+  color:hsl(303, 10%, 53%);
+}
+
+@media (max-width:780px) {
+
+    body{
+        background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+
+}
+}
+
+
+@media (min-width:781px){
+
+    body{
+        background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    }
+  }
+
+
+.container-reviews{
+  display:flex;
+  justify-content: space-between;
+  width:100%;
+}
+
+.stars {
+  width: 18px;
+  height: 15px;
+  margin: auto 0.8px;
+  margin-left: 5px;
+}
+
+.stars-1 {
+  width: 18px;
+  height: 15px;
+  margin: auto;
+  margin-left: 20px;
+}
+
+.stars-5 {
+  width: 18px;
+  height: 15px;
+  margin: auto 0.8px;
+  margin-right: 20px;
+}
+
+.taux {
+  width: 100%;
+  font-weight: bold;
+}
+
+.reviews {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: hsl(300, 24%, 96%);
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-left: 510px;
+}
+
+.report {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: hsl(300, 24%, 96%);
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-left: 560px;
+}
+
+.besttech {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: hsl(300, 24%, 96%);
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 610px;
+}
+
+.stars {
+  space: 10px;
+}
+
+.Smith {
+  background-color: hsl(300, 43%, 22%);
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.Roberts {
+  background-color: hsl(300, 43%, 22%);
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+.Wallace {
+  background-color: hsl(300, 43%, 22%);
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+
+.images {
+  float: left;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  margin: 20px 30px;
+}
+
+.red {
+  color: hsl(333, 80%, 67%);
+  margin-left: 86px;
+  margin-top: 0px;
+}
+
+.description {
+  color: hsl(300, 24%, 96%);
+  width: 80%;
+  margin: 40px auto;
+}
+
+.bottom-container {
+  display: flex;
+  gap: 30px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
